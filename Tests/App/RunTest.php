@@ -50,7 +50,6 @@ class RunTest extends TestCase
         $this->assertEquals($this->testConstant->getTariff(), $contractDto->getTariff());
         $this->assertEquals($this->testConstant->getVat(), $contractDto->getVat());
         $this->assertEquals($this->testConstant->getYearlyUsage(), $contractDto->getYearlyUsage());
-        //$this->assertEquals( $this->testConstant->getDateOfBirth(), $contractDto->getDateOfBirth());
     }
 
 }
